@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>FinFlow Dashboard</title>
+
+<link rel="stylesheet" href="styles.css">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+<h1>FinFlow Financial Dashboard</h1>
+
+<div class="container">
+
+<div class="card">
+<h2 id="healthScore">Loading...</h2>
+</div>
+
+<div class="card">
+<h3>Budget Warnings</h3>
+<div id="warnings"></div>
+</div>
+
+<div class="card">
+<h3>Spending Alerts</h3>
+<div id="alerts"></div>
+</div>
+
+<div class="card">
+<h3>Detected Subscriptions</h3>
+<div id="subscriptions"></div>
+</div>
+
+<div class="card">
+<h3>Spending by Category</h3>
+<canvas id="spendingChart"></canvas>
+</div>
+
+<div class="card">
+
+<h3>Add Transaction</h3>
+
+<input id="type" placeholder="income or expense">
+
+<input id="amount" placeholder="amount">
+
+<input id="category" placeholder="category">
+
+<input id="description" placeholder="description">
+
+<button onclick="addTransaction()">Add Transaction</button>
+
+</div>
+
+</div>
+
+<script src="app.js"></script>
+<script src="charts.js"></script>
+
+</body>
+
+</html>
