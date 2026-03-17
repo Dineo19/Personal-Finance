@@ -1,7 +1,7 @@
 body{
 font-family:Arial;
-background:#0f172a;
-color:white;
+background:#e4e5e8;
+color:rgb(10, 0, 0);
 padding:30px;
 }
 
@@ -10,7 +10,7 @@ text-align:center;
 }
 
 .card{
-background:#1e293b;
+background:#545f70;
 padding:20px;
 margin:20px;
 border-radius:10px;
